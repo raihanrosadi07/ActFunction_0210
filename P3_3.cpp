@@ -18,3 +18,8 @@ int jumlah(int x, int y, int z){
 void output(){
     cout << "Hasilnya : " << luaspersegi(panjang,lebar) << endl;
 }
+int main(){
+    input();
+    output();
+    cout << "Hasil dari penjumlahan  : " << jumlah(3,2,7);
+}
