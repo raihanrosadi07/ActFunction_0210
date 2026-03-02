@@ -9,3 +9,9 @@ void input(){
     cout << "Masukan Lebar ; ";
     cin >> l;
 }
+int LuasPersegi(){
+    return p * l;
+}
+void output(){
+    cout << "Hasilnya : " << LuasPersegi();
+}
