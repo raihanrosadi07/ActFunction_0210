@@ -15,3 +15,8 @@ int LuasPersegi(){
 void output(){
     cout << "Hasilnya : " << LuasPersegi();
 }
+int main(){
+    input();
+    output();
+}
+    
